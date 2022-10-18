@@ -1,3 +1,4 @@
+import math
 operation =  input("Write you operation (+,-,/,*,sqr,sqrt): ")
 print("if you choose sqr or sqrt write only first a")
 a = int(input("Write a: "))
@@ -14,4 +15,4 @@ if operation == '*':
 if operation == 'квадрат':
     print("Ваша відповідь ",a**2)
 if operation == 'корінь':
-    print("You answer ",a**(1/2))
+    print("You answer ",math.sqrt(a))
