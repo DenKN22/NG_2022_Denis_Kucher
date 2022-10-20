@@ -12,7 +12,7 @@ if operation == '/':
     print("You answer ",a/b)
 if operation == '*':
     print("You answer ",a*b)
-if operation == 'квадрат':
-    print("Ваша відповідь ",a**2)
-if operation == 'корінь':
+if operation == 'sqr':
+    print("You answer ",a**2)
+if operation == 'sqrt':
     print("You answer ",math.sqrt(a))
