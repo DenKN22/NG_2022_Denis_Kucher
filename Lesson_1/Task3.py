@@ -1,4 +1,3 @@
-from datetime import datetime
 seconds = int(input("Write count of seconds"))
 day = seconds//86400
 hour = (seconds%86400)//3600
